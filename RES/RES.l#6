@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.0127" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,10 +68,10 @@
 <symbols>
 <symbol name="RES">
 <description>普通电阻标准封装（直插 贴片）</description>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="nc"/>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="nc" rot="R180"/>
-<text x="-4.2926" y="0.9398" size="1.016" layer="95">&gt;NAME</text>
-<text x="-4.2926" y="-2.0066" size="1.016" layer="96">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<text x="-5.0546" y="3.2258" size="1.016" layer="95">NAME</text>
+<text x="-5.0546" y="1.8034" size="1.016" layer="96">VALUE</text>
 <wire x1="-2.54" y1="0.762" x2="-2.54" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="2.54" y1="0.762" x2="2.54" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.254" layer="94"/>
@@ -79,7 +79,7 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="RES-0805" prefix="R" uservalue="yes">
+<deviceset name="RES-0805">
 <description>0805的电阻封装器件</description>
 <gates>
 <gate name="G$1" symbol="RES" x="-2.54" y="2.54"/>
