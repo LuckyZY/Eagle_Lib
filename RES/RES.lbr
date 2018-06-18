@@ -70,14 +70,12 @@
 <description>普通电阻标准封装（直插 贴片）</description>
 <pin name="1" x="-2.54" y="-2.54" visible="off" length="short"/>
 <pin name="2" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
-<text x="-7.62" y="2.54" size="1.778" layer="95">NAME</text>
-<text x="-7.62" y="0" size="1.778" layer="96">VALUE</text>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-2.54" x2="5.08" y2="-3.302" width="0.254" layer="94"/>
+<text x="-2.5146" y="1.7018" size="1.016" layer="95">NAME</text>
+<text x="-2.5146" y="-0.2286" size="1.016" layer="96">VALUE</text>
+<wire x1="0" y1="-1.778" x2="0" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-1.778" x2="5.08" y2="-3.302" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.778" x2="5.08" y2="-1.778" width="0.254" layer="94"/>
-<wire x1="-0.0254" y1="-3.3528" x2="5.0546" y2="-3.3528" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.3274" x2="5.08" y2="-3.3274" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
