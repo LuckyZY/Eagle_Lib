@@ -1,2 +1,3 @@
-# Repository for Cadsoft Eagle library files
+# Repository for Cadsoft Eagle library files 
 -------------------------------------------------
+---
